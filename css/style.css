@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.headerContainer{
+    height: 420px;
+    background-color: blue;
+}
+
+header {
+    position: relative;
+    width: 80%;
+    margin:auto;
+
+}
+
+nav{
+    height: 100px;
+}
+
+nav a{
+    font-size: 13px;
+}
+
+#logo{
+    width: 10%;
+    float: left;
+    line-height: 111px;
+    margin-right: 20px;
+}
+
+#menu{
+    float: left;
+    width: 45%;
+    padding: 8px;
+    line-height: 76px;
+}
+
+
+
+
+#menu li{
+    list-style: none;
+    float: left;
+}
+
+#menu li a{
+    color: white;
+
+    text-decoration:none;
+    margin:0 6px;
+    font-size: 700;
+    text-transform: uppercase;
+}
+
+#menu li a:hover{
+    color: #ff9800;
+}
+
+
+#loginArea {
+    width: 35%;
+    float: right;
+    width: 40%;
+    height: 80px;
+}
+
+#elementLogin{
+    float: right;
+    line-height: 88px;
+
+ }
+
+ #elementLogin a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: lightgray;
+    text-transform: uppercase;
+ }
+
+ button{
+     margin: 0 10px;
+     border-radius: 5px;
+     padding: 7px 14px;
+     color: white;
+     text-transform: uppercase;
+     background-color: Transparent
+ }
+
+#loginButton{
+     padding:7px 21px;
+ }
+ .green{
+     border: 1px solid #7BBC00;
+    background-color: #7BBC00;
+ }
+
+
+.jumbo{
+
+    height: 320px;
+    background-color: yellow;
+    position: relative;
+}
+
+.jumbo div{
+    float: left;
+    height: 320px;
+    width: 44%;
+}
+
+#jumboText{
+    background-color: green;
+}
+
+#jumboImage{
+    background-color: grey;
+}
